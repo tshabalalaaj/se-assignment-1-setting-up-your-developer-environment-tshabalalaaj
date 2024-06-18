@@ -11,26 +11,26 @@ This assignment aims to familiarize you with the tools and configurations necess
 #Tasks:
 
 1. Select Your Operating System (OS):
-   My operating System is chromeOS Flex I use a debian virtual terminal .
+   - My operating System is chromeOS Flex I use a debian virtual terminal .
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
-   IDE: Visual Studio Code.
-   Installaion process:
-                        sudo apt install apt-transport-https
-                        sudo apt update
-                        sudo apt install software-properties-common apt-transport-https wget
-                        wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-                        sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-                        sudo apt update
-                        sudo apt install code
+   - IDE: Visual Studio Code.
+   - Installaion process:
+      - sudo apt install apt-transport-https
+      - sudo apt update
+      - sudo apt install software-properties-common apt-transport-https wget
+      - wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+      - sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+      - sudo apt update
+      - sudo apt install code
 
 3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   - Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
    
-   git install & Authentication:
-      open terminal and type:
-         sudo apt update
-         sudo apt install git
+   -git install & Authentication:
+      - open terminal and type:
+         - sudo apt update
+         - sudo apt install git
 
       To authenticate Git push with GitHub using a token, you can follow these steps:
 
