@@ -15,8 +15,8 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    - IDE: Visual Studio Code.
-   ```
    - Installaion process:
+   ```
       - sudo apt install apt-transport-https
       - sudo apt update
       - sudo apt install software-properties-common apt-transport-https wget
@@ -29,10 +29,11 @@ This assignment aims to familiarize you with the tools and configurations necess
    - Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
    
    -git install & Authentication:
-      - open terminal and type:```
+      - open terminal and type:
+      ```
          - sudo apt update
-         - sudo apt install git```
-
+         - sudo apt install git
+      ```
       To authenticate Git push with GitHub using a token, you can follow these steps:
 
          Step 1: Generate a Personal Access Token
@@ -47,14 +48,16 @@ This assignment aims to familiarize you with the tools and configurations necess
          Step 2: Configure Git to Use the Token
             1. Open a terminal or command prompt.
             2. Set the token as a credential helper for Git by running the following command, replacing <TOKEN> with the token you generated in step 1:
-            ```git config --global credential.helper '!f() { sleep 1; echo "username=git token=<TOKEN>"; }; f'```
+            ```git config --global credential.helper '!f() { sleep 1; echo "username=git token=<TOKEN>"; }; f'
+            ```
             This command sets up a temporary credential helper that uses the provided token for authentication.
 
          Step 3: Test the Authentication
             1. Navigate to a local Git repository where you want to test the authentication.
             2. Make a small change to a file in the repository.
             3. Commit the change using the following command: 
-               ```git commit -am "Test commit"```
+            ```git commit -am "Test commit"
+            ```
             4. Push the commit to GitHub using the following command: git push
             
             If the authentication is successful, Git should push the commit to the remote repository without asking for your GitHub username and password.
@@ -63,44 +66,52 @@ This assignment aims to familiarize you with the tools and configurations necess
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
    1. open terminal
    2. check if python is installed by typing the following command:
-      ```python3```
+   ```python3
+   ```
    3. if not installed type the following command:
-      ```sudo apt install python3```
+   ```sudo apt install python3
+   ```
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
    1. open terminal
    2. check if pip is installed by typing the following command:
-      ```pip```
+   ```pip
+   ```
    3. if not installed type the following command:
-      ```sudo apt install python3-pip```
+   ```sudo apt install python3-pip
+   ```
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
    1. open terminal
    2. check if mysql is installed by typing the following command:
-      ```mysql```
+   ```mysql
+   ```
    3. if not installed type the following command:
-      ```sudo apt install mysql-server```
+   ```sudo apt install mysql-server
+   ```
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
    1. open terminal
    2. check if docker is installed by typing the following command:
-      ```docker```
+   ```docker
+   ```
    3. if not installed type the following command:
-      ```sudo apt install docker.io```
+   ```sudo apt install docker.io
+   ```
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
    1. open vs-code.
-   2. '''ctrl + shift + x``` 
+   '''ctrl + shift + x``` 
    ![Image of a cat](plugins.png)
-   3. Search and install the following plugins:
+   2. Search and install the following plugins:
       - Python by ms-python
       - flutter by Dart-Code
       - prettier by esbenp
