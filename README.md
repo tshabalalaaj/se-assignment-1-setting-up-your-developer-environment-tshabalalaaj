@@ -48,7 +48,8 @@ This assignment aims to familiarize you with the tools and configurations necess
          Step 2: Configure Git to Use the Token
             1. Open a terminal or command prompt.
             2. Set the token as a credential helper for Git by running the following command, replacing <TOKEN> with the token you generated in step 1:
-            ```git config --global credential.helper '!f() { sleep 1; echo "username=git token=<TOKEN>"; }; f'
+            ```
+            git config --global credential.helper '!f() { sleep 1; echo "username=git token=<TOKEN>"; }; f'
             ```
             This command sets up a temporary credential helper that uses the provided token for authentication.
 
@@ -56,7 +57,8 @@ This assignment aims to familiarize you with the tools and configurations necess
             1. Navigate to a local Git repository where you want to test the authentication.
             2. Make a small change to a file in the repository.
             3. Commit the change using the following command: 
-            ```git commit -am "Test commit"
+            ```
+            git commit -am "Test commit"
             ```
             4. Push the commit to GitHub using the following command: git push
             
@@ -66,10 +68,12 @@ This assignment aims to familiarize you with the tools and configurations necess
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
    1. open terminal
    2. check if python is installed by typing the following command:
-   ```python3
+   ```
+   python3
    ```
    3. if not installed type the following command:
-   ```sudo apt install python3
+   ```
+   sudo apt install python3
    ```
 
 5. Install Package Managers:
@@ -77,10 +81,12 @@ This assignment aims to familiarize you with the tools and configurations necess
 
    1. open terminal
    2. check if pip is installed by typing the following command:
-   ```pip
+   ```
+   pip
    ```
    3. if not installed type the following command:
-   ```sudo apt install python3-pip
+   ```
+   sudo apt install python3-pip
    ```
 
 6. Configure a Database (MySQL):
@@ -88,10 +94,12 @@ This assignment aims to familiarize you with the tools and configurations necess
 
    1. open terminal
    2. check if mysql is installed by typing the following command:
-   ```mysql
+   ```
+   mysql
    ```
    3. if not installed type the following command:
-   ```sudo apt install mysql-server
+   ```
+   sudo apt install mysql-server
    ```
 
 7. Set Up Development Environments and Virtualization (Optional):
@@ -99,17 +107,21 @@ This assignment aims to familiarize you with the tools and configurations necess
 
    1. open terminal
    2. check if docker is installed by typing the following command:
-   ```docker
+   ```
+   docker
    ```
    3. if not installed type the following command:
-   ```sudo apt install docker.io
+   ```
+   sudo apt install docker.io
    ```
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
    1. open vs-code.
-   '''ctrl + shift + x``` 
+   ```
+   ctrl + shift + x
+   ```
    ![Image of a cat](plugins.png)
    2. Search and install the following plugins:
       - Python by ms-python
@@ -126,28 +138,43 @@ This assignment aims to familiarize you with the tools and configurations necess
    2. IDE: 
       -Visual Studio Code
       command line:
-         sudo apt update
+      ```sudo apt update
          sudo apt install code
+      ```
    3. Version Control System:
       -Git
       command line:
-         git install
+      ```
+      sudo apt update
+      sudo apt install git
+      git config --global credential.helper '!f() { sleep 1; echo "username=git token=<TOKEN>"; }; f'
+      git commit -am "Test commit"
+      git push
+      ```
    4. Programming Language:
       -Python
       command line:
-         sudo apt install python3
+      ```
+      sudo apt install python3
+      ```
    5. Package Manager:
       -pip
       command line:
-         sudo apt install python3-pip
+      ```
+      sudo apt install python3-pip
+      ```
    6. Database:
       -MySQL
       command line:
-         sudo apt install mysql-server
+      ```
+      sudo apt install mysql-server
+      ```
    7. Development Environment:
       -Docker
       command line:
-         sudo apt install docker.io
+      ```
+      sudo apt install docker.io
+      ```
    8. Extensions and Plugins inside vs-code:
       -open vs-code.
       -ctrl + shift + x
