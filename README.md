@@ -15,15 +15,16 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    - IDE: Visual Studio Code.
-   - Installaion process:'''
+   ```
+   - Installaion process:
       - sudo apt install apt-transport-https
       - sudo apt update
       - sudo apt install software-properties-common apt-transport-https wget
       - wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
       - sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
       - sudo apt update
-      - sudo apt install code'''
-
+      - sudo apt install code
+   ```
 3. Set Up Version Control System:
    - Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
    
